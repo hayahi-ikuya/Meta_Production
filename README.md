@@ -31,3 +31,4 @@ git clone https://github.com/hayahi-ikuya/Meta_Production.git
 4. Githubでpullリクエストを作成し、他の誰かに承認してもらう。
 
 承認されたら、完了
+　

@@ -76,6 +76,15 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.postprocessing": {
+      "version": "3.2.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.services.core": {
       "version": "1.4.0",
       "depth": 1,
@@ -163,6 +172,15 @@
         "com.unity.nuget.newtonsoft-json": "3.0.2"
       },
       "hash": "094bae611fc7f9ebdcf58f9fb6a7d981c9db4fc9"
+    },
+    "mu.cluster.cluster-world-tools": {
+      "version": "https://github.com/ClusterVR/ClusterWorldTools.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.postprocessing": "3.2.2"
+      },
+      "hash": "a83c6eafd7e22d5c0d5aecd5a431e45bd72eb2f8"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

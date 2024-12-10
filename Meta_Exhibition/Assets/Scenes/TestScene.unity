@@ -356,6 +356,7 @@ GameObject:
   m_Component:
   - component: {fileID: 646040600}
   - component: {fileID: 646040599}
+  - component: {fileID: 646040601}
   m_Layer: 0
   m_Name: Global
   m_TagString: Untagged
@@ -437,6 +438,65 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &646040601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 646040598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e67bdc2960f9462385a7fba1c0052836, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalGimmickKey:
+    key:
+      target: 2
+      key: ToggleZoom
+    item: {fileID: 1959307126}
+  logic:
+    statements:
+    - singleStatement:
+        targetState:
+          target: 2
+          key: ToggleZoom
+          parameterType: 0
+        expression:
+          type: 1
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 0
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 1
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: ToggleZoom
+                  type: 1
+              operatorExpression:
+                operator: 0
+                operands: []
 --- !u!1 &671191770
 GameObject:
   m_ObjectHideFlags: 0
@@ -1024,12 +1084,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 1959307126}
   triggers:
-  - target: 0
+  - target: 4
     specifiedTargetItem: {fileID: 0}
     key: ToggleZoom
-    type: 1
+    type: 0
     value:
-      boolValue: 0
+      boolValue: 1
       floatValue: 0
       integerValue: 0
       vector2Value: {x: 0, y: 0}
@@ -1060,7 +1120,7 @@ Animator:
   m_GameObject: {fileID: 1959307118}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f0f458ef411e2464fb8ab9e269d69f2f, type: 2}
+  m_Controller: {fileID: 9100000, guid: 984428cb11475844bbef1335e68860a7, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
